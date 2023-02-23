@@ -3,6 +3,18 @@
   padding: 0;
 }
 
+.txtAlignLeft{
+  text-align: start;
+}
+
+.txtAlignRight{
+  text-align: end;
+}
+
+.txtAlignCenter{
+  text-align: center;
+}
+
 body {
   text-align: center;
 
