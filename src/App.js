@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import IdCard from "./components/IdCard"
+import Greetings from "./components/Greetings"
+import Random from "./components/Random"
+import jsonData from "./data/berlin.json"
 function App() {
+  const copyData = [...jsonData]
+  const idCards = copyData.map(person => <IdCard person={person} ></IdCard> )
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+      {/* {idCards} */}
+      {/* <Greetings lang="en" message="Shengwei"></Greetings> */}
+      {/* <Random min={1} max={20} ></Random> */}
     </div>
   );
 }
