@@ -11,7 +11,7 @@ import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import NumbersTable from './components/NumbersTable'
-
+import Facebook from './components/Facebook';
 
 /* const aCard = {  
   type:"Master",
@@ -48,7 +48,8 @@ function App() {
       <LikeButton></LikeButton> */}
       {/* <ClickablePicture img = "./maxence.png" imgClicked = "./maxence-glasses.png"></ClickablePicture> */}
       {/* <Dice></Dice> */}
-      <NumbersTable limit="20"></NumbersTable>
+      {/* <NumbersTable limit="20"></NumbersTable> */}
+      <Facebook></Facebook>
     </div>
   );
 }

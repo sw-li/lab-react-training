@@ -74,14 +74,16 @@ span {
   gap: 30px
 }
 
-.idPhoto>img {
-  width: 200px;
+.idPhoto {
+  width: 150px;
+  object-fit: contain;
 }
 
 .idInfo {
   width: 300px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   align-items: flex-start;
 }
 
