@@ -111,3 +111,11 @@ span {
   gap: 20px;
   border: 1px dotted lightblue;
 }
+
+.dices{
+  width: 300px;
+  object-fit: contain;
+}
+img{
+  width: 100%;
+}

@@ -9,6 +9,7 @@ import Rating from './components/Rating';
 import DriverCard from './components/DriverCard'
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
+import Dice from './components/Dice';
 
 /* const aCard = {  
   type:"Master",
@@ -41,9 +42,11 @@ function App() {
       {/* <CreditCard card={aCard}></CreditCard> */}
       {/* <Rating> 1.78 </Rating> */}
       {/* <DriverCard card={aDriverCard}></DriverCard> */}
-{/*       <LikeButton></LikeButton>
+      {/* <LikeButton></LikeButton>
       <LikeButton></LikeButton> */}
-      <ClickablePicture img = "./maxence.png" imgClicked = "./maxence-glasses.png"></ClickablePicture>
+      {/* <ClickablePicture img = "./maxence.png" imgClicked = "./maxence-glasses.png"></ClickablePicture> */}
+    
+    {/* <Dice></Dice> */}
     </div>
   );
 }
