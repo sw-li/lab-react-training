@@ -119,3 +119,16 @@ span {
 img{
   width: 100%;
 }
+
+.numbersTable{
+  width: 250px;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, 45px);
+  grid-template-rows: repeat(auto-fit, 45px);
+}
+
+.numbersTable>* {
+  border: 1px solid;
+  height: 45px;
+}
