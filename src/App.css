@@ -90,3 +90,16 @@ span {
   border: 1px solid pink;
   border-radius: 3px;
 }
+
+.CreditCard{
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column nowrap;
+  gap:10px;
+}
+
+
+.miniLogo{
+  width: 30px;
+}
