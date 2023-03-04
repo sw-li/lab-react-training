@@ -11,9 +11,12 @@ import DriverCard from './components/DriverCard'
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
-import NumbersTable from './components/NumbersTable' */
+import NumbersTable from './components/NumbersTable' 
 import Facebook from './components/Facebook';
-import SignupPage from './pages/SignupPage';
+import SignupPage from './pages/SignupPage';*/
+import RGBColorPicker from './components/RGBColorPicker.jsx';
+import SingleColorPicker from './components/SingleColorPicker';
+
 /* const aCard = {  
   type:"Master",
   number:"0123456789018845",
@@ -51,7 +54,9 @@ function App() {
       {/* <Dice></Dice> */}
       {/* <NumbersTable limit="20"></NumbersTable> */}
       {/* <Facebook></Facebook> */}
-      <SignupPage></SignupPage>
+      {/* <SignupPage></SignupPage> */}
+      <RGBColorPicker></RGBColorPicker>
+
     </div>
   );
 }

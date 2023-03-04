@@ -138,3 +138,20 @@ img{
 .selected {
   background-color: #61dafb;
 }
+.colorBlock{
+  width: 200px;
+}
+
+.combinedColor{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  width: 400px;
+  border: 1px solid black;
+}
+
+.rgbColorPickers{
+  display: flex;
+  flex-flow: row;
+  gap:20px;
+}
