@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 /* import IdCard from "./components/IdCard"
 import Greetings from "./components/Greetings"
 import Random from "./components/Random"
@@ -12,7 +13,7 @@ import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
 import NumbersTable from './components/NumbersTable' */
 import Facebook from './components/Facebook';
-
+import SignupPage from './pages/SignupPage';
 /* const aCard = {  
   type:"Master",
   number:"0123456789018845",
@@ -49,7 +50,8 @@ function App() {
       {/* <ClickablePicture img = "./maxence.png" imgClicked = "./maxence-glasses.png"></ClickablePicture> */}
       {/* <Dice></Dice> */}
       {/* <NumbersTable limit="20"></NumbersTable> */}
-      <Facebook></Facebook>
+      {/* <Facebook></Facebook> */}
+      <SignupPage></SignupPage>
     </div>
   );
 }
