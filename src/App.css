@@ -134,3 +134,7 @@ img{
   border: 1px solid;
   height: 45px;
 }
+
+.selected {
+  background-color: #61dafb;
+}

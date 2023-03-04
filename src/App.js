@@ -1,5 +1,5 @@
 import './App.css';
-import IdCard from "./components/IdCard"
+/* import IdCard from "./components/IdCard"
 import Greetings from "./components/Greetings"
 import Random from "./components/Random"
 import BoxColor from './components/BoxColor';
@@ -10,7 +10,7 @@ import DriverCard from './components/DriverCard'
 import LikeButton from './components/LikeButton';
 import ClickablePicture from './components/ClickablePicture';
 import Dice from './components/Dice';
-import NumbersTable from './components/NumbersTable'
+import NumbersTable from './components/NumbersTable' */
 import Facebook from './components/Facebook';
 
 /* const aCard = {  

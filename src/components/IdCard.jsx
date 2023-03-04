@@ -1,9 +1,9 @@
 function IdCard(props){
-    const {person} = props
+    const {person, filterClass} = props
     return (
-        <div className="oneCard">
+        <div className={`oneCard ${filterClass}`}>
             <div className="idPhoto">
-                <img src={person.img} alt="id card photo" />
+                <img src={person.img} alt="id card" />
             </div>
             <div className="idInfo">
                 <h3>First name: <span>{person.firstName}</span> </h3>
